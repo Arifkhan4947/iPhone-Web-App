@@ -9,13 +9,16 @@ const App = () => {
     gsap.to('#blue-box', {
       x: 250,
       repeat: -1,
-      yoyo: true
+      yoyo: true,
+      rotation: 360,
+      duration: 2,
+      ease: 'power1.inOut'
     })
   }, []);  
 
   return (
     <>
-      <div id='blue-box' className='h-[160px] w-[160px] bg-blue-500 mx-auto rounded-lg'>
+      <div id='blue-box' className=' mt-[280px] h-[120px] w-[120px] bg-blue-500 mx-auto rounded-lg'>
         
       </div>
     </>
