@@ -1,10 +1,11 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 import React from 'react'
+import GsapStagger from './GsapStagger';
 
 const App = () => {
 
-  // TODO: Implement the gsap.to() method
+  // ------------------- TODO: Implement the gsap.to() method -------------------
 
   // useGSAP(() => {
   //   gsap.to('#blue-box', {
@@ -18,7 +19,7 @@ const App = () => {
   // }, []);  
 
 
-  // TODO: Implement the gsap timeline
+  // ------------------ TODO: Implement the gsap timeline --------------------
   const timeline = gsap.timeline({
     repeat: -1, repeatDelay: 1, yoyo:true
   });
@@ -72,7 +73,8 @@ const App = () => {
         <div id='yellow-box' className=' mt-[280px] h-[100px] w-[100px] bg-yellow-500 ml-[500px] rounded-lg'>
           
         </div>
-      </div>
+      </div> 
+      <GsapStagger/>
     </>
   )
 }
