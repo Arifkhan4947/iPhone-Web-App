@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 import React from 'react'
 import GsapStagger from './GsapStagger';
+import GsapScrollTrigger from './GsapScrollTrigger';
 
 const App = () => {
 
@@ -75,6 +76,7 @@ const App = () => {
         </div>
       </div> 
       <GsapStagger/>
+      <GsapScrollTrigger/>
     </>
   )
 }

@@ -4,7 +4,7 @@ import React from 'react'
 
 const GsapStagger = () => {
 
-    // TODO: Implement the gsap.stagger() method
+    // --------------------- TODO: Implement the gsap.stagger() method -------------------
 
     useGSAP(()=>{
         gsap.to('.stagger-box', {
@@ -26,7 +26,7 @@ const GsapStagger = () => {
 
 
   return (
-    <div className='mt-40'>
+    <div className='mt-40 ml-6'>
         <div className='flex gap-5'>
             <div className='stagger-box w-20 h-20 bg-indigo-200 rounded-lg'/>
             <div className='stagger-box w-20 h-20 bg-indigo-300 rounded-lg'/>
